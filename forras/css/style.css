@@ -25,12 +25,17 @@ h2{
 
 h3{    
     font-weight: bold;
-    color: #894f3b;    
+    color: #894f3b;  
+    text-align: center;
+    font-size: 130%;
+    letter-spacing: 1px;
 }
 
 
 li{
     list-style-image: url(../img/lemon2.png);
+    float: left;
+    margin-left: 40px;
 }
 
 
@@ -44,4 +49,18 @@ thead>tr:first-child{
 
 .navbar{
     background-color: #fd8800;
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+th{
+    text-transform: uppercase;
 }
